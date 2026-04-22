@@ -42,7 +42,7 @@ requirements = pyjnius,python3crystax,kivy
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
-requirements.source.kivy = /usr/local/Cellar/kivy-master
+# requirements.source.kivy = /usr/local/Cellar/kivy-master
 
 # (list) Garden requirements
 #garden_requirements =
@@ -71,11 +71,11 @@ android.permissions = INTERNET
 
 # (int) Android API to use
 #android.api = 14
-android.api = 21
+android.api = 36
 
 # (int) Minimum API required (8 = Android 2.2 devices)
 #android.minapi = 8
-android.minapi = 15
+android.minapi = 30
 
 # (int) Android SDK version to use
 #android.sdk = 21
@@ -83,17 +83,18 @@ android.minapi = 15
 
 # (str) Android NDK version to use
 #android.ndk = 14
-android.ndk = 10
+#android.ndk = 10
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
 #android.ndk_path = /usr/local/Cellar/android-sdk/ndk-bundle
-android.ndk_path = /usr/local/Cellar/crystax-ndk-10.3.2
+#android.ndk_path = /usr/local/Cellar/crystax-ndk-10.3.2
 
 # (str) Android SDK directory (if empty, it will be automatically downloaded.)
 #android.sdk_path =
 #android.sdk_path = /usr/local/Cellar/android-sdk
+android.accept_sdk_license = True
 
 # (str) python-for-android git clone directory (if empty, it will be automatically cloned from github)
 #android.p4a_dir =
@@ -133,8 +134,13 @@ android.entrypoint = org.kivy.android.PythonActivity
 # (list) Android additionnal libraries to copy into libs/armeabi
 #android.add_libs_armeabi = libs/android/*.so
 #android.add_libs_armeabi_v7a = libs/android-v7/*.so
+android.add_libs_arm64_v8a = libs/android-v8/*.so
 #android.add_libs_x86 = libs/android-x86/*.so
 #android.add_libs_mips = libs/android-mips/*.so
+
+android.archs = arm64-v8a
+
+android.release_artifact = apk
 
 # (bool) Indicate whether the screen should stay on
 # Don't forget to add the WAKE_LOCK permission if you set this to True
