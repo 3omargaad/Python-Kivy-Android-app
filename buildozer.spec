@@ -79,7 +79,7 @@ android.minapi = 15
 
 # (int) Android SDK version to use
 #android.sdk = 21
-android.sdk = 25
+#android.sdk = 25
 
 # (str) Android NDK version to use
 #android.ndk = 14
@@ -93,11 +93,11 @@ android.ndk_path = /usr/local/Cellar/crystax-ndk-10.3.2
 
 # (str) Android SDK directory (if empty, it will be automatically downloaded.)
 #android.sdk_path =
-android.sdk_path = /usr/local/Cellar/android-sdk
+#android.sdk_path = /usr/local/Cellar/android-sdk
 
 # (str) python-for-android git clone directory (if empty, it will be automatically cloned from github)
 #android.p4a_dir =
-p4a.source_dir = /usr/local/Cellar/python-for-android-master
+#p4a.source_dir = /usr/local/Cellar/python-for-android-master
 
 # (list) python-for-android whitelist
 #android.p4a_whitelist =
