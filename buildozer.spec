@@ -76,11 +76,11 @@ android.permissions = INTERNET
 
 # (int) Android API to use
 #android.api = 14
-android.api = 36
+android.api = 21
 
 # (int) Minimum API required (8 = Android 2.2 devices)
 #android.minapi = 8
-android.minapi = 30
+android.minapi = 15
 
 # (int) Android SDK version to use
 #android.sdk = 21
