@@ -53,6 +53,11 @@ requirements = pyjnius,python3crystax,kivy
 # (str) Icon of the application
 #icon.filename = %(source.dir)s/data/icon.png
 
+osx.python_version = 3.11
+
+# Kivy version to use
+osx.kivy_version = 2.3.0
+
 # (str) Supported orientation (one of landscape, portrait or all)
 orientation = portrait
 
