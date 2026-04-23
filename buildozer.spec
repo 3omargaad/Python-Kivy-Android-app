@@ -84,21 +84,21 @@ android.minapi = 15
 
 # (int) Android SDK version to use
 #android.sdk = 21
-#android.sdk = 25
+android.sdk = 25
 
 # (str) Android NDK version to use
 #android.ndk = 14
-#android.ndk = 10
+android.ndk = 10
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
 
 # (str) Android NDK directory (if empty, it will be automatically downloaded.)
 #android.ndk_path = /usr/local/Cellar/android-sdk/ndk-bundle
-#android.ndk_path = /usr/local/Cellar/crystax-ndk-10.3.2
+android.ndk_path = /usr/local/Cellar/crystax-ndk-10.3.2
 
 # (str) Android SDK directory (if empty, it will be automatically downloaded.)
 #android.sdk_path =
-#android.sdk_path = /usr/local/Cellar/android-sdk
+android.sdk_path = /usr/local/Cellar/android-sdk
 android.accept_sdk_license = True
 
 # (str) python-for-android git clone directory (if empty, it will be automatically cloned from github)
